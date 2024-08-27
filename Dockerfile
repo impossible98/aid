@@ -10,4 +10,4 @@ EXPOSE 6453
 
 VOLUME ["/app/photos"]
 
-CMD ["python", "/app/main.py"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "6453"]
