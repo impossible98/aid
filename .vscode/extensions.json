@@ -1,5 +1,6 @@
 {
-    "recommendations": [
-        "ms-python.python"
-    ]
+  "recommendations": [
+    "ms-python.python",
+    "redhat.vscode-yaml"
+  ]
 }
